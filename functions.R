@@ -5,7 +5,7 @@ options(max.print = 9999)
 counter <- 1
 counters_path = "counters/"
 SSt_API_link <- "https://api.survey-studio.com/"
-Autorisation_header <- paste0("SS-Token = ",Token1)
+Autorisation_header <- paste0("SS-Token ",Token1)
 
 
 

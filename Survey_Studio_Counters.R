@@ -4,9 +4,10 @@ source("functions.R", chdir = TRUE, encoding = "UTF8")
 # Создайте файл setup.R в нем переменную Token1 вот так:
 # Token1 <- "мой токен из Survey Studio"     
 
+# JSON Counters
 # Для просмотре счетчиков из файла экспорта, положите файл .json со счетчиками из Survey Studio в папку "counters"
 # Если файлов много, укажите номер файла для просмотра в переменной counter
-# JSON Counters
+
 
 counters <- get_counters()
 counters
